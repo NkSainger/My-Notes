@@ -24,7 +24,7 @@ class NotesFragment : Fragment(R.layout.fragment_notes) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.addTask.setOnClickListener {
+        binding.addNote.setOnClickListener {
             findNavController().navigate(R.id.action_notesFragment_to_addNoteFragment)
         }
     }
